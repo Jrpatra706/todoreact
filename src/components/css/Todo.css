@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.todo{
+    width: 450px;
+    min-height: 500px;
+    background: #fff;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.todo-header{
+    color: rgba(9, 9, 128, 0.832);
+    font-family: 'Poppins', sans-serif;
+    font-weight:900;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-task{
+    border: none;
+    outline: none;
+    background: rgb(231, 229, 229);
+    color: rgb(74, 74, 74);
+    height: 2.4rem;
+    width: 70%;
+   padding: 7px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.add-btn{
+    border: none;
+    outline: none;
+    background: rgb(255, 94, 0);
+    color: #fff;
+    height: 3.2rem;
+    width: 25%;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight:bold;
+    cursor: pointer;
+    margin-left: -40px;
+}
+.todo-list{
+    margin-top: 30px;
+}

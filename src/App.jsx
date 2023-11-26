@@ -1,9 +1,9 @@
-
+import Todo from "./components/Todo.jsx"
 
 function App() {
   return (
     <>
-      <h1>hey</h1>
+      <Todo/>
     </>
   )
 }

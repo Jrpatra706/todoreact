@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.todoItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+.todo-items-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.todo-text{
+    width: 21rem;
+    padding-left: 12px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(120, 119, 119);
+}
+.tick-img{
+    height: 1.8rem;
+}
+.cross-img{
+    height: 1rem;
+    cursor: pointer;
+}
+.ticked{
+    text-decoration: line-through;
+    color: rgb(190, 188, 188);
+}
